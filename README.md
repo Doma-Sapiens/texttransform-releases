@@ -2,13 +2,15 @@
 
 Official Windows installers for TextTransform.
 
-## Latest version: 1.0.16
+## Latest version: 1.0.17
 
 [Download TextTransform for Windows](https://github.com/Doma-Sapiens/texttransform-releases/releases/latest/download/TextTransformSetup.exe)
 
-[Release notes and SHA-256 checksums](https://github.com/Doma-Sapiens/texttransform-releases/releases/tag/v1.0.16)
+[Release notes and SHA-256 checksums](https://github.com/Doma-Sapiens/texttransform-releases/releases/tag/v1.0.17)
 
-Version 1.0.16 improves selected-text capture and replacement, retains completed results when automatic delivery is refused, and fixes the first hotkey after a cold start and installer lifecycle ordering.
+Version 1.0.17 restores automatic selected-text replacement in editable Chromium/Electron fields, preserves the original clipboard after confirmed delivery, and avoids unnecessary previews when layout correction leaves the text unchanged. Keep the original field and selection while a command is processing.
+
+Known issue: cold capture can still fail with InputSourceUnavailable. The failed installed cold-start check is recorded in the release validation report; physical Slack acceptance of this package remains pending.
 
 System, Light and Dark appearance modes remain available. Recording stops automatically at the ten-minute limit, and the completed dictation result is also kept in the clipboard. Informational dialogs have one OK action.
 
