@@ -2,13 +2,13 @@
 
 Official Windows installers for TextTransform.
 
-## Latest version: 1.0.18
+## Latest version: 1.0.19
 
 [Download TextTransform for Windows](https://github.com/Doma-Sapiens/texttransform-releases/releases/latest/download/TextTransformSetup.exe)
 
-[Release notes and SHA-256 checksums](https://github.com/Doma-Sapiens/texttransform-releases/releases/tag/v1.0.18)
+[Release notes and SHA-256 checksums](https://github.com/Doma-Sapiens/texttransform-releases/releases/tag/v1.0.19)
 
-Version 1.0.18 gives long Pro dictation more time to complete and returns the transcript as soon as the API responds. The built-in Fix keyboard layout command now appears at the bottom of the command list, including in existing profiles.
+Version 1.0.19 opens the result preview when TextTransform is hidden in the system tray. The desktop diagnostic log shows which Pro mode handled the text.
 
 Known issue. The first attempt to capture selected text can fail with InputSourceUnavailable. The installed cold-start failure is documented in the 1.0.17 release validation report.
 
